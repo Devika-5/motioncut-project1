@@ -1,0 +1,124 @@
+body{
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.regform{
+    display: inline-block;
+    text-align: center;
+    width:380px;
+    height:380px;
+    margin:100px auto;
+    
+    padding:10px 20px 30px;
+    border-radius: 8px;
+    box-shadow: transparent;
+    border:1px solid transparent;
+    background-color:rgba(255,255,255,.30);
+    text-align: center;
+    display: block;
+    color:brown;
+}
+.regform h2{
+    margin-top: 60px;
+}
+::placeholder{
+    color: brown;
+    
+}
+.regform input{
+    text-align: center;
+    display: block;
+    width:100%;
+    font-size:1.2em;
+    border:1px solid brown;
+    box-shadow:2px;
+    border-radius: 5px;
+    padding:10px 10px;
+    box-sizing: border-box;
+    margin:30px 0px 15px;
+}
+button{
+    display: block;
+    text-align: center;
+    margin:30px 0px 15px;
+    background-color: brown;
+    color:white;
+    padding-left: 170px;
+    padding-right: 170px;
+    border-radius: 5px;
+    padding:10px 10px;
+    font-size:1.2em;
+    width:100%;
+    box-sizing: border-box;
+}
+p{
+    margin-top: 40px;
+    margin-right: 2px;
+    padding-right: 160px;
+    display: inline-block;
+}
+.regform .sign{
+    margin-right: 2px;
+    padding-left: 40px;
+    display: inline-block;
+    color: brown;
+}
+.leaves img{
+    width:50px;
+    animation:leaves 7s linear infinite
+}
+.leaves{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    top:0;
+}
+@keyframes leaves{
+    0%{
+        transform: translateY(0);
+        opacity:0;
+    }
+    50%{
+        
+        opacity:0;
+    }
+    70%{
+       
+        opacity:1;
+    }
+    100%{
+        transform: translateY(80vh);
+        opacity: 0;
+    }
+}
+.leaves img:nth-child(1){
+    animation-delay: 2s;
+}
+.leaves img:nth-child(2){
+    animation-delay: 3s;
+}
+.leaves img:nth-child(3){
+    animation-delay: 5s;
+}
+.leaves img:nth-child(4){
+    animation-delay: 10s;
+}
+.leaves img:nth-child(5){
+    animation-delay: 6s;
+}
+
+.leaves img:nth-child(6){
+    animation-delay: 4.5s;
+}
+.leaves img:nth-child(7){
+    animation-delay: 1.5s;
+}
+.leaves img:nth-child(8){
+    animation-delay: 8s;
+}
+
